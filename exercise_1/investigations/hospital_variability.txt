@@ -11,18 +11,16 @@ procedures that have at least 500 reported values from the pool of 4824
 hospitals to make sure there is a large enough sample that we're working 
 with.
 
-
-"STK_4" "Thrombolytic Therapy"  0.048115044696514474    832
-"OP_23" "Head CT Scan Results for Acute Ischemic Stroke or Hemorrhagic Stroke Patients who Received Head CT or MRI Scan Interpretation Within 45 Minutes of ED Arrival" 0.04772861332692362     919
-"VTE_5" "Venous Thromboembolism Warfarin Therapy Discharge Instructions"       0.02600064243345305      2363
-"VTE_1" "Venous Thromboembolism Prophylaxis"    0.023200565552676754    3380
-"STK_8" "Stroke Education"      0.019438404714406412    2275
-"OP_14" "Simultaneous use of brain Computed Tomography (CT) and sinus Computed Tomography (CT)" 0.018811467288595105    2218
-"OP_8"  "MRI Lumbar Spine for Low Back Pain"    0.017077298115285036    1528
-"OP_10" "Abdomen CT - Use of Contrast Material" 0.016343714628271576    3515
-"VTE_3" "Venous Thromboembolism Patients with Anticoagulation Overlap Therapy" 0.015735226244620513     2556
-"STK_6" "Discharged on Statin Medication"       0.01534948423346473     2478
-
+STK_4   Thrombolytic Therapy    0.04819866588294435     874
+OP_23   Head CT Scan Results for Acute Ischemic Stroke or Hemorrhagic Stroke Patients who Received Head CT or MRI Scan Interpretation Within 45 Minutes of ED Arrival       0.047718888614639125    959
+VTE_5   Venous Thromboembolism Warfarin Therapy Discharge Instructions  0.026578796126890944      2468
+VTE_1   Venous Thromboembolism Prophylaxis      0.0232788289617008      3534
+STK_8   Stroke Education        0.019637153240873687    2372
+OP_14   Simultaneous use of brain Computed Tomography (CT) and sinus Computed Tomography (CT)     0.018802844699517155    2334
+OP_8    MRI Lumbar Spine for Low Back Pain      0.017092371241176234    1595
+OP_10   Abdomen CT - Use of Contrast Material   0.01605127975116554     3678
+VTE_3   Venous Thromboembolism Patients with Anticoagulation Overlap Therapy    0.015506427526135956      2666
+STK_6   Discharged on Statin Medication 0.014983287175853979    2582
 
 
 

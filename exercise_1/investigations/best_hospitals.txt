@@ -34,17 +34,16 @@ specifically procedures, and finding an average value across the range
 of these procedures, weighting appropriately.
 
 Best 10 hospitals with scores and procedure reporting counts:
-"490116"        "LEWISGALE HOSPITAL PULASKI"    "VA"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9767221530828702      32
-"520202"        "ST CLARES HOSPITAL OF WESTON"  "WI"    "Acute Care Hospitals" "Voluntary non-profit - Private" "Yes"   0.9735116957893825      32
-"180127"        "FRANKFORT REGIONAL MEDICAL CENTER"     "KY"    "Acute Care Hospitals"  "Proprietary"   "Yes"   0.9724880883650234      36
-"490107"        "RESTON HOSPITAL CENTER"        "VA"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9708754262584686      37
-"450669"        "MEDICAL CENTER OF LEWISVILLE"  "TX"    "Acute Care Hospitals" "Voluntary non-profit - Private" "Yes"   0.9703362964214545      33
-"490118"        "HENRICO DOCTORS' HOSPITAL"     "VA"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9699338968216885      37
-"100166"        "DOCTORS HOSPITAL OF SARASOTA"  "FL"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9696715578116664      33
-"110177"        "DOCTORS HOSPITAL"      "GA"    "Acute Care Hospitals"  "Proprietary"   "Yes"   0.9674977987706216      34
-"100246"        "LAWNWOOD REGIONAL MEDICAL CENTER & HEART INSTITUTE"    "FL"   "Acute Care Hospitals"   "Proprietary"   "Yes"   0.9668488801777922      37
-"160069"        "MERCY MEDICAL CENTER-DUBUQUE"  "IA"    "Acute Care Hospitals" "Voluntary non-profit - Church"  "Yes"   0.9660497437070179      33
-
+490116  LEWISGALE HOSPITAL PULASKI      VA      Acute Care Hospitals    Proprietary     Yes     0.9766334502804905      32
+520202  ST CLARES HOSPITAL OF WESTON    WI      Acute Care Hospitals    Voluntary non-profit - Private  Yes     0.972985732101761    32
+180127  FRANKFORT REGIONAL MEDICAL CENTER       KY      Acute Care Hospitals    Proprietary     Yes     0.9724115813859205  36
+490107  RESTON HOSPITAL CENTER  VA      Acute Care Hospitals    Proprietary     Yes     0.970451046716234       37
+450669  MEDICAL CENTER OF LEWISVILLE    TX      Acute Care Hospitals    Voluntary non-profit - Private  Yes     0.9702467078312733   33
+490118  HENRICO DOCTORS' HOSPITAL       VA      Acute Care Hospitals    Proprietary     Yes     0.9694922142509078      37
+100166  DOCTORS HOSPITAL OF SARASOTA    FL      Acute Care Hospitals    Proprietary     Yes     0.9691686799206292      33
+110177  DOCTORS HOSPITAL        GA      Acute Care Hospitals    Proprietary     Yes     0.9674113406591424      34
+100246  LAWNWOOD REGIONAL MEDICAL CENTER & HEART INSTITUTE      FL      Acute Care Hospitals    Proprietary     Yes     0.9664122063784327   37
+160069  MERCY MEDICAL CENTER-DUBUQUE    IA      Acute Care Hospitals    Voluntary non-profit - Church   Yes     0.9655499290315604   33
 
 Here is the list of procedures:
 general:

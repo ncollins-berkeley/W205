@@ -1,3 +1,5 @@
+mkdir -p refined_files
+
 tail -n +2 Hospital\ General\ Information.csv > refined_files/hospitals.csv
 tail -n +2 Measure\ Dates.csv > refined_files/measures.csv
 tail -n +2 hvbp_hcahps_05_28_2015.csv> refined_files/survey_responses.csv

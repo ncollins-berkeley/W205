@@ -11,7 +11,7 @@ average of each of the 24 survey values, and are careful to divide by
 either 10 or 9 as appropriate for the "out of" value.  We can now look 
 to correlate these values with the hospital's overall score weightings:
 
-Our pearson's R coefficient comes back as 0.1187010326675422.  This 
+Our pearson's R coefficient comes back as 0.1174033544842013.  This 
 indicates a very weak correlation.
 
 Unfortunatley, the survey data provided in the set for all of the 47 
