@@ -1,0 +1,26 @@
+Hospitals and Patients:
+
+Finally, to determine whether patient survey values correlate to 
+hospital scores or procedure variability, we must perform a pearson's 
+correlation across a weighted grouping of survey values compared with 
+our average scoring.
+
+To do this we take the "hvbp_hcahps_05_28_2015" file, which is the most 
+complete and general of all the survey data.  We then take a weighted 
+average of each of the 24 survey values, and are careful to divide by 
+either 10 or 9 as appropriate for the "out of" value.  We can now look 
+to correlate these values with the hospital's overall score weightings:
+
+Our pearson's R coefficient comes back as 0.1187010326675422.  This 
+indicates a very weak correlation.
+
+Unfortunatley, the survey data provided in the set for all of the 47 
+procedure types independently is incomplete in both data sets and 
+overall availability.  There is simply not enough data to produce 
+relevant findings on a correlation with procedure variability, though we 
+have the variability data available in isolation.
+
+This approach is appropriate because it's leveraging actual 
+correlational values between the weighted averages of the data sets for 
+a particular attribute.
+

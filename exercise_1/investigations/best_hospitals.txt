@@ -1,0 +1,102 @@
+Best_hospitals
+
+The assignment indicates that we must go about finding the best 
+hospitals by finding those that have "the most consistently high scores 
+for a variety of procedures."  In medical terms, the only data in the 
+data set that really focus on true procedures (in the realm of 
+observations and interventions) are the files "Outpatient Imaging 
+Efficiency - Hospital" which focuses on imaging procedures, and "Timely 
+and Effective Care - Hospital" which contains a variety of general 
+procedures.
+
+Taking the scores in those files, one is able to devise a weighted 
+heuristic based on looking at the overall min and max of each procedure 
+and coming up with a weighted score (0 to 1 scale) for every procedure 
+in those files.  One must be cautious to verify procedures for which a 
+high value is better and procedures for which a low value is better.  
+Once you throw out the missing and incomplete data, you're left with a 
+core of these procedures.  By reading the provided documentation in the 
+pdf, you can determine what the high/low attribute is for each one.  
+(The specifics here are listed below.)
+
+After you appropriately weight all the data on a 0 to 1 scale, you can 
+then aggregate for specific hospitals to determine the overall "best 
+hospitals" in the group.  I chose to require that, to be considered, 
+hospitals had to at least have reported metrics for at least two-thirds 
+(32 of 47) of these procedures.  Otherwise they were thrown out for not 
+having provided enough data.  This may seem to introduce bias, though, 
+we need an assurance that the hospital is fairly large and inclusive, 
+and "best" is a biased term to begin with.  This reduces the set to 1976 
+hospitals.  The best ten are indicated below.
+
+This approach is appropriate because we are targeting measures that are 
+specifically procedures, and finding an average value across the range 
+of these procedures, weighting appropriately.
+
+Best 10 hospitals with scores and procedure reporting counts:
+"490116"        "LEWISGALE HOSPITAL PULASKI"    "VA"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9767221530828702      32
+"520202"        "ST CLARES HOSPITAL OF WESTON"  "WI"    "Acute Care Hospitals" "Voluntary non-profit - Private" "Yes"   0.9735116957893825      32
+"180127"        "FRANKFORT REGIONAL MEDICAL CENTER"     "KY"    "Acute Care Hospitals"  "Proprietary"   "Yes"   0.9724880883650234      36
+"490107"        "RESTON HOSPITAL CENTER"        "VA"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9708754262584686      37
+"450669"        "MEDICAL CENTER OF LEWISVILLE"  "TX"    "Acute Care Hospitals" "Voluntary non-profit - Private" "Yes"   0.9703362964214545      33
+"490118"        "HENRICO DOCTORS' HOSPITAL"     "VA"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9699338968216885      37
+"100166"        "DOCTORS HOSPITAL OF SARASOTA"  "FL"    "Acute Care Hospitals" "Proprietary"    "Yes"   0.9696715578116664      33
+"110177"        "DOCTORS HOSPITAL"      "GA"    "Acute Care Hospitals"  "Proprietary"   "Yes"   0.9674977987706216      34
+"100246"        "LAWNWOOD REGIONAL MEDICAL CENTER & HEART INSTITUTE"    "FL"   "Acute Care Hospitals"   "Proprietary"   "Yes"   0.9668488801777922      37
+"160069"        "MERCY MEDICAL CENTER-DUBUQUE"  "IA"    "Acute Care Hospitals" "Voluntary non-profit - Church"  "Yes"   0.9660497437070179      33
+
+
+Here is the list of procedures:
+general:
+"AMI_10"higher better
+"AMI_2" higher better
+"AMI_7a"higher better
+"AMI_8a"higher better
+"CAC_1" higher better
+"CAC_2" higher better
+"CAC_3" higher better
+"ED_1b" lower better 
+"ED_2b" lower better 
+"HF_1"  higher better
+"HF_2"  higher better
+"HF_3"  higher better
+"IMM_2" higher better
+"OP_1"  lower better
+"OP_18b"lower better 
+"OP_2"  higher better
+"OP_20" lower better
+"OP_21" lower better
+"OP_22" lower better
+"OP_23" higher better
+"OP_3b" lower better
+"OP_4"  higher better
+"OP_5"  lower better
+"OP_6"  higher better
+"OP_7"  higher better
+"PN_6"  higher better
+"SCIP_VTE_2" higher better
+"STK_1"  higher better
+"STK_10" higher better
+"STK_2"  higher better
+"STK_3"  higher better 
+"STK_4"  higher better
+"STK_5"  higher better
+"STK_6"  higher better
+"STK_8"  higher better
+"VTE_1"  higher better
+"VTE_2"  higher better
+"VTE_3"  higher better
+"VTE_4"  higher better
+"VTE_5"  higher better
+"VTE_6"  lower better
+
+imaging:
+"OP_10" lower better
+"OP_11" lower better
+"OP_13" lower better
+"OP_14" lower better
+"OP_8"  lower better
+"OP_9"  lower better
+
+
+

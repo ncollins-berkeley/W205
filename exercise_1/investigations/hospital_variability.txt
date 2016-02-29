@@ -1,0 +1,28 @@
+Hospital Variability:
+
+To determine procedure variability between hospitals, we take our 
+weighted scores and now aggregate by procedure instead of hospital or 
+state.  Then, instead of averaging the scores, we examine the variance 
+within each procedure, among our 47 chosen procedure types.  The top 10 
+most variant procedures are listed below with variance and counts.  This 
+approach is appropriate because we are taking the statistical value of 
+variance for each procedure based on weighted averages.  We only look at 
+procedures that have at least 500 reported values from the pool of 4824 
+hospitals to make sure there is a large enough sample that we're working 
+with.
+
+
+"STK_4" "Thrombolytic Therapy"  0.048115044696514474    832
+"OP_23" "Head CT Scan Results for Acute Ischemic Stroke or Hemorrhagic Stroke Patients who Received Head CT or MRI Scan Interpretation Within 45 Minutes of ED Arrival" 0.04772861332692362     919
+"VTE_5" "Venous Thromboembolism Warfarin Therapy Discharge Instructions"       0.02600064243345305      2363
+"VTE_1" "Venous Thromboembolism Prophylaxis"    0.023200565552676754    3380
+"STK_8" "Stroke Education"      0.019438404714406412    2275
+"OP_14" "Simultaneous use of brain Computed Tomography (CT) and sinus Computed Tomography (CT)" 0.018811467288595105    2218
+"OP_8"  "MRI Lumbar Spine for Low Back Pain"    0.017077298115285036    1528
+"OP_10" "Abdomen CT - Use of Contrast Material" 0.016343714628271576    3515
+"VTE_3" "Venous Thromboembolism Patients with Anticoagulation Overlap Therapy" 0.015735226244620513     2556
+"STK_6" "Discharged on Statin Medication"       0.01534948423346473     2478
+
+
+
+

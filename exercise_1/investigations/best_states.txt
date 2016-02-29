@@ -1,0 +1,21 @@
+Best States:
+
+The methodology for this is similar to that of the best hospitals, but 
+now we aggregate by state rather than individual hospital.  There is no 
+need to cut out smaller counts, in that we end up with larger numbers 
+for each state as is.  This approach is appropriate because we are 
+taking an overall value based on weighting for comparison by state.  The 
+best ten states (with scores and counts) are listed here:
+
+"ME"    0.930027865419015       729
+"WI"    0.9269685397977108      2630
+"VA"    0.9222591151980308      2234
+"NE"    0.9207739253015779      796
+"HI"    0.9195155489062163      399
+"UT"    0.9193278752772855      928
+"ID"    0.9189267035851888      476
+"FL"    0.9188727541772779      5597
+"SD"    0.9185062445673964      476
+"CO"    0.9181098199903657      1477
+
+
