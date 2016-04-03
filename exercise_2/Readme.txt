@@ -1,6 +1,6 @@
 DEPENDENCIES
 
-To run the application, you will need to install Storm (Streamparse), Python (2.7.3), and PostgreSQL (8.4.20).  Other versions of these products may still work, though they have not been tested.
+To run the application, you will need to install Storm (Streamparse), Python (2.7.3), and PostgreSQL (8.4.20).  Other versions of these products may still work, though they have not been tested.  Tweepy and Psycopyg python libraries are required as well.
 
 
 SETUP
